@@ -700,7 +700,7 @@ EnhancedVolcano <- function(
             FC = shape[2],
             P = shape[3],
             FC_P = shape[4]),
-          guide = FALSE,
+          guide = "none",
           drop = legendDropLevels)
 
     } else {
@@ -728,7 +728,7 @@ EnhancedVolcano <- function(
             FC = shape[2],
             P = shape[3],
             FC_P = shape[4]),
-          guide = FALSE,
+          guide = "none",
           drop = legendDropLevels)
 
     }
